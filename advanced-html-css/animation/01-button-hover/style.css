@@ -16,4 +16,12 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+.bh:hover {
+  background-color: #1d4ed8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(2);
+  cursor: pointer;
 }
