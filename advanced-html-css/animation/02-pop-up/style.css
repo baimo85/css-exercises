@@ -39,6 +39,9 @@ button {
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3 ease;
 }
 
 .popup-modal p {
