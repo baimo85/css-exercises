@@ -3,11 +3,11 @@
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-#black-buttom {
+.black-buttom {
     background-color: black;
     color: white;
 }
 
-#yellow-buttom {
+.yellow-buttom {
     background-color: yellow;
 }
