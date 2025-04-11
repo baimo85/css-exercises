@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ridículamente complejo</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
+
+    .ridiculous {
+      color: #ff00ff;
+      background-color: #000000;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 24px;
+      box-shadow: 0 0 10px #ff00ff;
+      transition: all 0.4s ease;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .ridiculous:hover {
+      animation: ridiculousAnimation 2s infinite ease-in-out;
+      color: #00ffff;
+      background-color: #1f1f1f;
+      transform: scale(1.2) rotate(10deg);
+      box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    }
+
+    @keyframes ridiculousAnimation {
+      0%   { transform: scale(1.1) rotate(0deg) translateY(0); }
+      25%  { transform: scale(1.2) rotate(3deg) translateY(-5px); }
+      50%  { transform: scale(1.3) rotate(-3deg) translateY(5px); }
+      75%  { transform: scale(1.2) rotate(3deg) translateY(-5px); }
+      100% { transform: scale(1.1) rotate(0deg) translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <p>Este es un texto con un <span class="ridiculous">span loco</span> que hace de todo 🌀🌈💥</p>
+</body>
+</html>

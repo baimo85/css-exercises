@@ -1,3 +1,7 @@
+* {
+  outline: 2px solid red;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,4 +42,14 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+#prueba {
+  background-color: yellow;
+  height: 250px;
+  width: 250px;
+  border: 450px;
+  margin: 100px;
+  padding: 3000px;
+  box-sizing: border-box;
 }
