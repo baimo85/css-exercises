@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  padding: 8px;
+  position: relative;  padding: 8px;
 }
 
 .logo {
@@ -22,15 +21,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
-  flex: 1;
-}
-
-.left-links {
-  justify-content: flex-start;
-}
-
-.right-links {
-  justify-content: flex-end;
+  margin: 0;
+  padding: 0;  
 }
 
 a {
