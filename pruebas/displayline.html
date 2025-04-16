@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos de display</title>
+  <style>
+    .caja {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 4px;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+
+    .none {
+      display: none;
+    }
+
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>display: block</h2>
+  <div class="caja block">Caja 1</div>
+  <div class="caja block">Caja 2</div>
+
+  <h2>display: inline</h2>
+  <span class="caja inline">Caja 1</span>
+  <span class="caja inline">Caja 2</span>
+
+  <h2>display: inline-block</h2>
+  <span class="caja inline-block">Caja 1</span>
+  <span class="caja inline-block">Caja 2</span>
+
+  <h2>display: none</h2>
+  <div class="caja none">No deberías verme 👀</div>
+
+</body>
+</html>
